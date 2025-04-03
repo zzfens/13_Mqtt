@@ -1,0 +1,40 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPathWin": "D:\\ESP-IDF\\esp\\v5.4\\esp-idf",
+    "idf.pythonInstallPath": "D:\\ESP-IDF\\Espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.toolsPathWin": "D:\\ESP-IDF\\Espressif",
+    "MicroPython.executeButton": [
+        {
+            "text": "▶",
+            "tooltip": "运行",
+            "alignment": "left",
+            "command": "extension.executeFile",
+            "priority": 3.5
+        }
+    ],
+    "MicroPython.syncButton": [
+        {
+            "text": "$(sync)",
+            "tooltip": "同步",
+            "alignment": "left",
+            "command": "extension.execute",
+            "priority": 4
+        }
+    ],
+    "idf.portWin": "COM6",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "mqtt_client.h": "c",
+        "nvs_flash.h": "c",
+        "string.h": "c",
+        "ledto.h": "c"
+    }
+}
